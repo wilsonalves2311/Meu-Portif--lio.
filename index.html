@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <!-- fim google fonts -->
+
+  <!-- BOOTSTRAP ICONS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <!-- FIM BOOTSTRAP ICONS -->
+  <link rel="stylesheet" href="style.css">
+  <title>Agnência WLS </title>
+</head>
+
+<body>
+  <header>
+    <div class="interface">
+      <div class="logo">
+        <a href="logo">
+          <img src="imagem/logo02.xcf" alt="logo da Agência WLS">
+        </a>
+      </div> <!--logo-->
+      <button class="btn-menu" onclick="document.querySelector('.menu-mobile').classList.add('open')">
+        <!-- abrir menu mobile-->
+        &#9776;
+      </button>
+      <nav class="menu-descktop">
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#especialidades">Especialidades</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+        </ul>
+      </nav>
+      <div class="bnt-contato">
+        <a href="#formulario">
+          <button>Contato</button>
+        </a>
+      </div>
+    </div>
+    </div>
+  </header>
+  <nav class="menu-mobile">
+    <button class="close-menu"
+      onclick="document.querySelector('.menu-mobile').classList.remove('open')">&times;</button>
+    <ul>
+      <li><a href="#inicio">Início</a></li>
+      <li><a href="#especialidades">Especialidades</a></li>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#projetos">Projetos</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+  </nav>
+  <div class="menu-overlay" onclick="document.querySelector('.menu-mobile').classList.remove('open'); this.style.display='none';"></div>
+  <main>
+    <section id="inicio" class="topo-do-site">
+      <div class="interface">
+        <div class="flex">
+          <div class="txt-topo-site">
+            <h1>TRANSFORMANDO IDEIAS EM REALIDADE DIGITAL<span>.</span></h1>
+            <p>Soluções digitais desenvolvidas com precisão e propósito. Atuo na criação de sistemas eficientes, seguros
+              e escaláveis, unindo conhecimento técnico e experiência prática para entregar resultados excepcionais. Meu
+              foco é entender suas necessidades e criar soluções personalizadas que atendam aos seus objetivos de
+              negócios. Desde o planejamento até a implementação, estou comprometido em oferecer um serviço de alta
+              qualidade e suporte contínuo. Vamos trabalhar juntos para transformar sua visão em realidade digital.</P>
+
+            <div class="btn-contato">
+              <a href="#formulario">
+                <button>Entre em Contato</button>
+              </a>
+            </div>
+          </div> <!--txt-topo-site-->
+          <div class="img-topo-site">
+            <img src="imagem/1000000144.jpg" alt="">
+          </div> <!--img-topo-site-->
+        </div> <!--flex-->
+      </div> <!--interface-->
+    </section> <!-- final topo-do-site-->
+
+    <section id="especialidades" class="especialidades">
+      <div class="interface">
+        <h2 class="titulo">MINHAS <span>ESPECIALIDADES.</span></h2>
+        <div class="flex">
+          <div class="especialidades-box">
+            <i class="bi bi-code-square"></i>
+            <h3>Website</h3>
+            <p>Com foco em performance, design responsivo e experiência do usuário, desenvolvo websites institucionais
+              que fortalecem a presença digital de marcas e empresas. Cada projeto é criado sob medida para refletir a
+              identidade da organização, transmitir confiança e gerar conexões reais com o público. Utilizo as melhores
+              práticas de desenvolvimento web para garantir carregamento rápido, navegação intuitiva e compatibilidade
+              com todos os dispositivos — transformando visitantes em oportunidades.</p>
+          </div> <!--especialidades-box-->
+          <div class="especialidades-box">
+            <i class="bi bi-cart"></i>
+            <h3>Loja Online</h3>
+            <p>Desenvolvo lojas virtuais completas, seguras e fáceis de gerenciar, com integração de meios de pagamento,
+              cálculo de frete e painel administrativo intuitivo. Meu objetivo é criar uma experiência de compra
+              eficiente e agradável para seus clientes, aumentando suas vendas e fortalecendo sua marca no ambiente
+              digital. Cada loja é personalizada para atender às necessidades do seu negócio, com foco em performance,
+              responsividade e escalabilidade</p>
+          </div> <!--especialidades-box-->
+          <div class="especialidades-box">
+            <i class="bi bi-phone"></i>
+            <h3>Desenvolvimento de Aplicativos</h3>
+            <p>Crio aplicativos modernos, intuitivos e personalizados para Android e iOS, conectando sua marca ao dia a
+              dia dos usuários. Meu foco é transformar ideias em soluções móveis inovadoras, com interfaces atraentes,
+              alta performance e integração com sistemas e APIs. Do conceito ao lançamento, entrego aplicativos que
+              facilitam processos, engajam clientes e impulsionam resultados para o seu negócio.</p>
+          </div> <!--especialidades-box-->
+        </div> <!--  final flex-->
+      </div> <!-- final interface-->
+    </section> <!-- final especialidades-->
+
+    <section id="sobre" class="sobre"> <!-- inicio sobre-->
+      <div class="interface"> <!--inicio interface sobre-->
+        <div class="flex"> <!-- inico flex sobre-->
+          <div class="img-sobre"> <!-- inicio img-sobre-->
+            <img src="imagem/1000000144.jpg" alt="">
+
+          </div> <!-- final img-sobre-->
+          <div class="txt-sobre"> <!-- inicio txt-sobre-->
+            <h2>MUITO PRAZER, <span>SOU WILSON ALVES.</span></h2>
+            <p>Olá! Meu nome é Wilson Alves e sou Desenvolvedor Full Stack, apaixonado por tecnologia e movido pelo
+              desafio constante de transformar ideias em soluções eficientes e bem estruturadas. Com uma visão completa
+              do ciclo de desenvolvimento, atuo tanto no front-end quanto no back-end, sempre com foco na entrega de
+              aplicações modernas, escaláveis e com ótima experiência para o usuário.
+
+              Sou um profissional dedicado, comprometido com resultados e atento aos detalhes. Acredito que o código bem
+              escrito é aquele que, além de funcionar, é limpo, seguro e sustentável. Gosto de aprender constantemente,
+              acompanhar as evoluções do mercado e aplicar as melhores práticas de desenvolvimento nos projetos em que
+              atuo.</p>
+
+            <p>Ao longo da minha jornada, venho desenvolvendo soluções que não apenas atendem às necessidades técnicas,
+              mas que também agregam valor real para os clientes e usuários finais. Se você está em busca de um
+              desenvolvedor Full Stack com responsabilidade, criatividade e foco em resultados, será um prazer colaborar
+              em novos desafios.</p>
+            <div class="btn-social"> <!--inicio btn-social-->
+              <a href="https://www.instagram.com/wilsonalves122/" target="_blank" rel="noopener noreferrer"
+                title="Instagram de Wilson Alves"><i class="bi bi-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/wilsonalvesdasilva" target="_blank" rel="noopener noreferrer"
+                title="LinkedIn de Wilson Alves"><i class="bi bi-linkedin"></i></a>
+              <a href="https://github.com/wilsonalves2311" target="_blank" rel="noopener noreferrer"
+                title="GitHub de Wilson Alves"><i class="bi bi-github"></i></a>
+              <a href="https://threads.net/@wilsonalves122" target="_blank" rel="noopener noreferrer"
+                title="Threads de Wilson Alves"><i class="bi bi-threads"></i></a>
+            </div> <!-- final btn-social-->
+          </div> <!-- final txt-sobre-->
+        </div> <!-- final flex sobre-->
+      </div> <!-- final interface sobre-->
+    </section> <!-- final sobre-->
+    <section id="projetos" class="projetos"> <!-- inicio portifolio-->
+      <div class="interface"> <!-- inicio interface portifolio-->
+        <h2 class="titulo">MEU <span>PORTIFÓLIO.</span></h2>
+        <div class="flex"> <!-- inicio flex portifolio-->
+
+          <div class="img-port" style="background-image: url('imagem/Captura\ de\ tela\ 2025-09-30\ 093847.png');">
+            <div class="overlay">projeto 01 <div class="img-port" style="background-image: url(imagem/ppp.avif);">
+  <div class="overlay">Projeto 01<a href="https://github.com/wilsonalves2311/seu-projeto" target="_blank">Ver Projeto</a>
+  </div>
+</div></div>
+          </div>
+          <div class="img-port" style="background-image: url(imagem/ppp.avif);">
+            <div class="overlay">projeto 02</div>
+          </div>
+          <div class="img-port" style="background-image: url(imagem/ppp.avif);">
+            <div class="overlay">projeto 03</div>
+          </div>
+        </div> <!-- final flex portifolio-->
+      </div> <!-- final interface portifolio-->
+    </section> <!-- final portifolio-->
+
+    <section id="formulario" class="formulario"> <!-- inicio formulario-->
+      <div class="interface">
+        <h2 class="titulo">FALA <span>COMIGO.</span></h2>
+        <form action="https://formsubmit.co/wilsonalvesdaslva939@gmail.com" method="POST">
+          <input type="text" name="nome" placeholder="Seu nome" required>
+          <input type="email" name="email" placeholder="Seu e-mail" required>
+          <input type="text" name="celular" placeholder="Seu celular" required>
+          <textarea name="mensagem" placeholder="Sua mensagem" required></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </section> <!-- final formulario-->
+
+  </main>
+  <footer>
+    <div class="interface">
+      <div class="line-footer">
+        <div class="logo-footer">
+          <img src="imagem/logo02.xcf" alt="logo da Agência WLS">
+        </div> <!--logo-footer-->
+        <div class="flex">
+          <div class="btn-social"> <!--inicio btn-social-->
+            <a href="https://www.instagram.com/wilsonalves122/" target="_blank" rel="noopener noreferrer"
+              title="Instagram de Wilson Alves"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/wilsonalvesdasilva" target="_blank" rel="noopener noreferrer"
+              title="LinkedIn de Wilson Alves"><i class="bi bi-linkedin"></i></a>
+            <a href="https://github.com/wilsonalves2311" target="_blank" rel="noopener noreferrer"
+              title="GitHub de Wilson Alves"><i class="bi bi-github"></i></a>
+            <a href="https://threads.net/@wilsonalves122" target="_blank" rel="noopener noreferrer"
+              title="Threads de Wilson Alves"><i class="bi bi-threads"></i></a>
+          </div> <!-- final btn-social-->
+        </div>
+      </div>
+    </div>
+    <div class="line-footer borda">
+      <p><i class="bi bi-envelope-fill"></i> <a href="mailto:wilsonalvesdaslva939@gmail">wilsonalvesdaslva939@gmail</a>
+      </p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
